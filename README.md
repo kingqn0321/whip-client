@@ -17,6 +17,12 @@ WHIP 是以 WebRTC 作为媒体接入方法的简单协议:
 - 降低对硬件编码器和广播服务的要求，以支持 WebRTC；
 - 可在 web 浏览器和本机编码器中使用；
 
+## WHIP 接入方式
+
+- [Web](https://github.com/qrtc/whip-client/tree/main/Web)
+- [Gstreamer](https://github.com/qrtc/whip-client/tree/main/Gstreamer)
+- [OBS](https://github.com/qrtc/whip-client/tree/main/OBS)
+
 ## 参考文档
 
 - [WebRTC-HTTP ingestion protocol (WHIP) (ietf.org)](https://datatracker.ietf.org/doc/draft-ietf-wish-whip/)
