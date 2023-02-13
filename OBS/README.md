@@ -8,7 +8,7 @@ OBS 可以支持丰富的输入源并支持基本编排，使用基于 OBS 的�
 
 当前仅支持 Windows 环境
 
-[https://github.com/CoSMoSoftware/OBS-studio-webrtc/releases/download/2.12/obs-webrtc-x64-23.2.84.rc4.msi](https://github.com/CoSMoSoftware/OBS-studio-webrtc/releases/download/2.12/obs-webrtc-x64-23.2.84.rc4.msi)
+[https://demo-qnrtc-files.qnsdk.com/obs-webrtc-x64-23.2.84.rc4.msi](https://demo-qnrtc-files.qnsdk.com/obs-webrtc-x64-23.2.84.rc4.msi)
 
 ### Step 2 创建 七牛云-实时音视频 应用
 
@@ -29,7 +29,6 @@ OBS 可以支持丰富的输入源并支持基本编排，使用基于 OBS 的�
 参考下图所示：
 
 ![obs-settings](./images/obs-qrtc_01_marked.png)
-
 
 推流地址格式如下：
 
