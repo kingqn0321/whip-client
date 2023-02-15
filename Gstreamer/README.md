@@ -31,6 +31,13 @@ whip-client -n -u https://rtc.qiniuapi.com/v3/apps/<APP_ID>/rooms/<ROOM_ID>/user
 
 ```
 
+其中：
+
+- <APP_ID> // 为 Step 1 中创建的 APP_ID
+- <ROOM_ID> // 为房间名称
+- <USER_ID> // 为房间内用户名称
+- <ROOM_TOKEN> // 为 Step 2 中签算的 Token
+
 以上命令运行成功后即可在对应的房间内订阅到已推流成功的音视频。
 
 ## 集成
