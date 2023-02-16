@@ -4,13 +4,7 @@ OBS 可以支持丰富的输入源并支持基本编排，使用基于 OBS 的�
 
 ## OBS 推流步骤
 
-### Step 1 下载并安装 OBS-WebRTC
-
-当前仅支持 Windows 环境
-
-[https://demo-qnrtc-files.qnsdk.com/obs-webrtc-x64-23.2.84.rc4.msi](https://demo-qnrtc-files.qnsdk.com/obs-webrtc-x64-23.2.84.rc4.msi)
-
-### Step 2 创建 七牛云-实时音视频 应用
+### Step 1 创建 七牛云-实时音视频 应用
 
 参考 [https://developer.qiniu.com/rtc/10155/process](https://developer.qiniu.com/rtc/10155/process)
 
@@ -18,7 +12,13 @@ OBS 可以支持丰富的输入源并支持基本编排，使用基于 OBS 的�
 
 参考 [https://developer.qiniu.com/rtc/8813/roomToken](https://developer.qiniu.com/rtc/8813/roomToken)
 
-### Step 4 通过 OBS 推流
+### Step 3 通过 OBS 推流
+
+下载并安装 OBS-WebRTC
+
+- [https://demo-qnrtc-files.qnsdk.com/obs-webrtc-x64-23.2.84.rc4.msi](https://demo-qnrtc-files.qnsdk.com/obs-webrtc-x64-23.2.84.rc4.msi)
+
+当前仅支持 Windows 环境
 
 进入 OBS 设置界面
 
@@ -38,7 +38,7 @@ https://rtc.qiniuapi.com/v3/apps/<APP_ID>/rooms/<ROOM_ID>/users/<USER_ID>/publis
 
 其中：
 
-- <APP_ID> // 为 Step 2 中创建的 APP_ID
+- <APP_ID> // 为 Step 1 中创建的 APP_ID
 - <ROOM_ID> // 为房间名称
 - <USER_ID> // 为房间内用户名称
-- <ROOM_TOKEN> // 为 Step 3 中签算的 Token
+- <ROOM_TOKEN> // 为 Step 2 中签算的 Token
